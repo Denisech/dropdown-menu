@@ -1,0 +1,57 @@
+body{
+    background-color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 200vh;
+    margin: 0;
+}
+section{
+    padding: .5em .7em;
+    background-color: saddlebrown;
+}
+.container{
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+h1{
+    color: whitesmoke;
+}
+.dropdown{
+    display: inline-block;
+    position: relative;
+}
+.dropdown-label{
+    background-color: antiquewhite;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+.dropdown-menu{
+    position: absolute;
+    display: none;
+    min-width: 170px;
+    top: 2.1em;
+    padding-left: 0;
+    margin: 0;
+    background-color: cornsilk;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.summenu{
+    list-style-type: none;
+    border: 1px solid gray;
+    margin: 0;
+    padding: 0;
+}
+.summenu > li + li{
+    border-top: 1px solid gray;
+}
+.summenu > li > a{
+    display: block;
+    text-decoration: none;
+    color: blue;
+    padding: 0.5em;
+}
+.summenu > li >a:hover{
+    background-color:wheat;
+}
